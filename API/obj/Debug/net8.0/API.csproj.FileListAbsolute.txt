@@ -36,3 +36,8 @@ D:\VS code\Casepoint\WebAPI\MyAPI\API\obj\Debug\net8.0\ref\API.dll
 D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Npgsql.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\obj\Debug\net8.0\API.sourcelink.json

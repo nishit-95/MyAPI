@@ -1,4 +1,5 @@
 using Npgsql;
+using Repositories;
 using Repositories.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,13 +14,14 @@ builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
 {
     builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
 }));
-builder.Services.AddSingleton<Repositories.IUserInterface, UserRepository>();
-builder.Services.AddSingleton<NpgsqlConnection>((UserRepository) =>
+builder.Services.AddSingleton<IUserInterface, UserRepository>();
+builder.Services.AddSingleton<NpgsqlConnection>(serviceProvider =>
 {
-    var connectionString =
-    UserRepository.GetRequiredService<IConfiguration>().GetConnectionString("pgconn");
+    var configuration = serviceProvider.GetRequiredService<IConfiguration>();
+    var connectionString = configuration.GetConnectionString("pgconn");
     return new NpgsqlConnection(connectionString);
 });
+
 
 var app = builder.Build();
 

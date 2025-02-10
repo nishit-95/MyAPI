@@ -10,3 +10,4 @@ D:\VS code\Casepoint\WebAPI\MyAPI\Repositories\obj\Debug\net8.0\refint\Repositor
 D:\VS code\Casepoint\WebAPI\MyAPI\Repositories\obj\Debug\net8.0\Repositories.pdb
 D:\VS code\Casepoint\WebAPI\MyAPI\Repositories\obj\Debug\net8.0\ref\Repositories.dll
 D:\VS code\Casepoint\WebAPI\MyAPI\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+D:\VS code\Casepoint\WebAPI\MyAPI\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json

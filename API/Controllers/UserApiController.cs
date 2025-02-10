@@ -53,7 +53,8 @@ namespace MyApp.Namespace
 
             }
         }
-
+        [HttpPost]
+        [Route("Login")]
         public async Task<IActionResult> Login([FromForm] vm_Login user)
         {
             t_User UserData = await _userRepo.Login(user);
