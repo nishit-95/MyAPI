@@ -1,0 +1,75 @@
+@model Repositories.vm_Login
+
+@{
+    ViewData["Title"] = "User Login";
+}
+
+<h2>User Login</h2>
+<div id="responseMessage"></div>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<form id="loginForm">
+    <div class="form-group">
+        <label asp-for="c_Email"></label>
+        <input asp-for="c_Email" id="email" type="email" class="form-control" />
+        <span asp-validation-for="c_Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="c_Password"></label>
+        <input asp-for="c_Password" id="pwd" type="password" class="form-control" />
+        <span asp-validation-for="c_Password" class="text-danger"></span>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary" id="loginBtn">Login</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#loginForm').submit(function (event) {
+            event.preventDefault(); // Page refresh hone se rokne ke liye
+
+            var formData = new FormData();
+            formData.append("c_Email", $('#email').val());
+            formData.append("c_Password", $('#pwd').val());
+
+            $.ajax({
+                url: 'http://localhost:5266/api/UserApi/Login',
+                type: 'POST',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    $('#responseMessage').removeClass().addClass("alert alert-primary").text(response.message);
+                    if (response.success) {
+                        sessionStorage.setItem("user", JSON.stringify(response.userData));
+                        setTimeout(function () {
+                            window.location.href = "../Home/Index";
+                        }, 2000); // 1 second delay
+                    }
+                },
+                error: function (xhr) {
+                    var displayError = "";
+                    if (xhr.responseJSON && xhr.responseJSON.errors) {
+                        displayError += xhr.responseJSON.errors.c_Email ? xhr.responseJSON.errors.c_Email + ", " : "";
+                        displayError += xhr.responseJSON.errors.c_Password ? xhr.responseJSON.errors.c_Password + ", " : "";
+                    } else {
+                        displayError = "An error occurred while processing your request.";
+                    }
+                    $('#responseMessage').removeClass().addClass("alert alert-danger").text(displayError.slice(0, -2));
+                }
+            });
+        });
+    });
+</script>

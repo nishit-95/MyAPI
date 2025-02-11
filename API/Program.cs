@@ -1,6 +1,7 @@
 using Npgsql;
 using Repositories;
 using Repositories.Implementations;
+using Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,7 @@ builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
     builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
 }));
 builder.Services.AddSingleton<IUserInterface, UserRepository>();
+builder.Services.AddSingleton<IContactInterface, ContactRepository>();
 builder.Services.AddSingleton<NpgsqlConnection>(serviceProvider =>
 {
     var configuration = serviceProvider.GetRequiredService<IConfiguration>();
@@ -33,6 +35,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("corsapp");
+app.MapControllers();
 
 var summaries = new[]
 {
@@ -53,8 +57,7 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast")
 .WithOpenApi();
-app.UseCors("corsapp");
-app.MapControllers();
+
 
 app.Run();
 

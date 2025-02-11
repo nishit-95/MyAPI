@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Mb+dUkcdFkDoLUr3D0QnINGXcAKmMiQa+GAK1M1HuOo=",
+  "Hash": "ko4RgiDVpE4NB1YsOQOd3PZmbj1G8iZQ5eWFgI1WRPo=",
   "Source": "MVC",
   "BasePath": "_content/MVC",
   "Mode": "Default",
@@ -1193,6 +1193,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\profile_images\\abc@gmail.com.jpg",
+      "SourceId": "MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "RelativePath": "profile_images/abc@gmail.com.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile_images\\abc@gmail.com.jpg"
+    },
+    {
+      "Identity": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\profile_images\\user@example.com.jpg",
+      "SourceId": "MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "RelativePath": "profile_images/user@example.com.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\profile_images\\user@example.com.jpg"
     }
   ]
 }

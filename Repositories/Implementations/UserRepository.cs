@@ -85,6 +85,7 @@ c_gender,c_mobile,c_image) VALUES (@c_userName,
                         UserData.c_Address = (string)reader["c_address"];
                         UserData.c_Image = (string)reader["c_image"];
                     }
+                    
                 }
             }
             catch (Exception e)
@@ -95,6 +96,7 @@ c_gender,c_mobile,c_image) VALUES (@c_userName,
             {
                 await _conn.CloseAsync();
             }
+            // Console.WriteLine("Login Successful");
             return UserData;
         }
     }

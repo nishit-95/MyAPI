@@ -1,0 +1,110 @@
+@model Repositories.t_User
+
+@{
+    ViewData["Title"] = "Create User";
+}
+
+<h2>Create User</h2>
+
+<!-- Success/Error Message -->
+<div id="responseMessage"></div>
+
+<!-- User Registration Form -->
+<form id="userForm" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="c_UserName"></label>
+        <input id="c_UserName" asp-for="c_UserName" class="form-control" />
+        <span asp-validation-for="c_UserName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="c_Email"></label>
+        <input id="c_Email" asp-for="c_Email" type="email" class="form-control" />
+        <span asp-validation-for="c_Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="c_Password"></label>
+        <input id="c_Password" asp-for="c_Password" type="password" class="form-control" />
+        <span asp-validation-for="c_Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="c_ConfirmPassword"></label>
+        <input id="c_ConfirmPassword" asp-for="c_ConfirmPassword" type="password" class="form-control" />
+        <span asp-validation-for="c_ConfirmPassword" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="c_Address"></label>
+        <input id="c_Address" asp-for="c_Address" class="form-control" />
+        <span asp-validation-for="c_Address" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="c_Mobile"></label>
+        <input id="c_Mobile" asp-for="c_Mobile" class="form-control" />
+        <span asp-validation-for="c_Mobile" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="c_Gender"></label>
+        <select id="c_Gender" asp-for="c_Gender" class="form-control">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <span asp-validation-for="c_Gender" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProfilePicture"></label>
+        <input id="ProfilePicture" asp-for="ProfilePicture" type="file" class="form-control" />
+        <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+<!-- jQuery and AJAX Script -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#userForm').submit(function (event) {
+            event.preventDefault(); // Prevent normal form submission
+
+            var formData = new FormData(this); // Get form data including files
+
+            $.ajax({
+                url: 'http://localhost:5266/api/UserApi/Register', // Ensure correct API URL
+                type: 'POST',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    $('#responseMessage').text('User registered successfully!')
+                        .addClass("alert alert-success")
+                        .show();
+                },
+                error: function (xhr) {
+                    var displayError = "";
+                    if (xhr.responseJSON && xhr.responseJSON.errors) {
+                        $.each(xhr.responseJSON.errors, function (key, value) {
+                            displayError += value + ", ";
+                        });
+                    }
+                    $('#responseMessage').text('Error: ' + displayError.slice(0, -2))
+                        .addClass("alert alert-danger")
+                        .show();
+                }
+            });
+        });
+    });
+</script>

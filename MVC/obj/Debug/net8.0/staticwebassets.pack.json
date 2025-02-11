@@ -245,6 +245,14 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\profile_images\\abc@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\abc@gmail.com.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\profile_images\\user@example.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\user@example.com.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
