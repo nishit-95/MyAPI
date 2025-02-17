@@ -44,3 +44,11 @@ D:\VS code\Casepoint\WebAPI\MyAPI\API\obj\Debug\net8.0\API.sourcelink.json
 D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\API.staticwebassets.endpoints.json
 D:\VS code\Casepoint\WebAPI\MyAPI\API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\VS code\Casepoint\WebAPI\MyAPI\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
