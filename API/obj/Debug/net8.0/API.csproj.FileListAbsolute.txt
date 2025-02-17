@@ -41,3 +41,6 @@ D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Conf
 D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 D:\VS code\Casepoint\WebAPI\MyAPI\API\obj\Debug\net8.0\API.sourcelink.json
+D:\VS code\Casepoint\WebAPI\MyAPI\API\bin\Debug\net8.0\API.staticwebassets.endpoints.json
+D:\VS code\Casepoint\WebAPI\MyAPI\API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\VS code\Casepoint\WebAPI\MyAPI\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

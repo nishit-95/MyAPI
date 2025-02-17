@@ -36,3 +36,6 @@ D:\VS code\Casepoint\WebAPI\MyAPI\MVC\obj\Debug\net8.0\refint\MVC.dll
 D:\VS code\Casepoint\WebAPI\MyAPI\MVC\obj\Debug\net8.0\MVC.pdb
 D:\VS code\Casepoint\WebAPI\MyAPI\MVC\obj\Debug\net8.0\MVC.genruntimeconfig.cache
 D:\VS code\Casepoint\WebAPI\MyAPI\MVC\obj\Debug\net8.0\ref\MVC.dll
+D:\VS code\Casepoint\WebAPI\MyAPI\MVC\bin\Debug\net8.0\MVC.staticwebassets.endpoints.json
+D:\VS code\Casepoint\WebAPI\MyAPI\MVC\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\VS code\Casepoint\WebAPI\MyAPI\MVC\obj\Debug\net8.0\staticwebassets\msbuild.MVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

@@ -1,0 +1,42 @@
+@{
+    Layout = "../Shared/_ContactLayout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg">
+                <div class="card-body">
+                    <h3 class="text-center mb-4">My Profile</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-4 text-center">
+                            <img id="image" class="img-fluid rounded-circle border shadow" 
+                                 style="width: 150px; height: 150px; object-fit: cover;" 
+                                 alt="Profile Image">
+                        </div>
+                        <div class="col-md-8">
+                            <h4><strong>Name:</strong> <span id="name"></span></h4>
+                            <h5><strong>Email:</strong> <span id="email"></span></h5>
+                            <h5><strong>Mobile:</strong> <span id="mobile"></span></h5>
+                            <h6><strong>Gender:</strong> <span id="gender"></span></h6>
+                            <h6><strong>Address:</strong> <span id="address"></span></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    var user = JSON.parse(sessionStorage.getItem("user"));
+    var imgpath = "../../profile_images/" + user.c_Image;
+    $(document).ready(function () {
+        $('#image').attr('src', imgpath);
+        $('#name').text(user.c_UserName);
+        $('#email').text(user.c_Email);
+        $('#mobile').text(user.c_Mobile);
+        $('#gender').text(user.c_Gender);
+        $('#address').text(user.c_Address);
+    });
+</script>

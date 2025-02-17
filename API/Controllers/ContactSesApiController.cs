@@ -78,7 +78,8 @@ namespace MyApp.Namespace
             }
         }
 
-        [HttpPut("UpdateContact")]
+        // [HttpPut("UpdateContact")]
+        [HttpPut]
         // [Route("UpdateContact")]
         public async Task<IActionResult> UpdateContact([FromForm] t_Contact contact)
         {

@@ -2,7 +2,51 @@
   "Files": [
     {
       "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVC.bundle.scp.css",
-      "PackagePath": "staticwebassets\\MVC.bundle.scp.css"
+      "PackagePath": "staticwebassets\\MVC.nk8e3srjs6.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\abc@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\abc@gmail.com.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\h@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\h@gmail.com.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\j@gmmufns.dffvbdbv.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\j@gmmufns.dffvbdbv.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\n@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\n@gmail.com.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\nishitvataliya003@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\nishitvataliya003@gmail.com.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\nishsit@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\nishsit@gmail.com.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\sdfdsd.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\sdfdsd.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\sdfsd.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\sdfsd.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\sdsfd.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\sdsfd.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\string.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\string.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\xcvx.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\xcvx.jpg"
     },
     {
       "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\css\\site.css",
@@ -251,6 +295,10 @@
     {
       "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\profile_images\\user@example.com.jpg",
       "PackagePath": "staticwebassets\\profile_images\\user@example.com.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVC.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
