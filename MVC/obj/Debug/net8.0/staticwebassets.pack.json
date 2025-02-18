@@ -9,6 +9,22 @@
       "PackagePath": "staticwebassets\\contact_images\\abc@gmail.com.jpg"
     },
     {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\dfdfd.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\dfdfd.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\dfgdfg.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\dfgdfg.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\dsgsdgs.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\dsgsdgs.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\fghfh.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\fghfh.jpg"
+    },
+    {
       "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\h@gmail.com.jpg",
       "PackagePath": "staticwebassets\\contact_images\\h@gmail.com.jpg"
     },
@@ -29,12 +45,20 @@
       "PackagePath": "staticwebassets\\contact_images\\nishsit@gmail.com.jpg"
     },
     {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\r@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\r@gmail.com.jpg"
+    },
+    {
       "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\sdfdsd.jpg",
       "PackagePath": "staticwebassets\\contact_images\\sdfdsd.jpg"
     },
     {
       "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\sdfsd.jpg",
       "PackagePath": "staticwebassets\\contact_images\\sdfsd.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\sdfsdf.jpg",
+      "PackagePath": "staticwebassets\\contact_images\\sdfsdf.jpg"
     },
     {
       "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\contact_images\\sdsfd.jpg",
@@ -291,6 +315,10 @@
     {
       "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\profile_images\\abc@gmail.com.jpg",
       "PackagePath": "staticwebassets\\profile_images\\abc@gmail.com.jpg"
+    },
+    {
+      "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\profile_images\\k@gmail.com.jpg",
+      "PackagePath": "staticwebassets\\profile_images\\k@gmail.com.jpg"
     },
     {
       "Id": "D:\\VS code\\Casepoint\\WebAPI\\MyAPI\\MVC\\wwwroot\\profile_images\\user@example.com.jpg",

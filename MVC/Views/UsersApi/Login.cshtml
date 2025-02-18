@@ -53,10 +53,11 @@
                 success: function (response) {
                     $('#responseMessage').removeClass().addClass("alert alert-primary").text(response.message);
                     if (response.success) {
+                        $('#responseMessage').addClass("alert alert-primary");
+                        localStorage.setItem("token", response.token);
                         sessionStorage.setItem("user", JSON.stringify(response.userData));
-                        setTimeout(function () {
-                            window.location.href = "../Contact/_index";
-                        }, 2000); // 1 second delay
+                        $('#responseMessage').text(' ' + response.message);
+                        window.location = "../Contact/_TokenList";
                     }
                 },
                 error: function (xhr) {
